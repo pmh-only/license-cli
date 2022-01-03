@@ -7,12 +7,12 @@ simple LICENSE file generator
 
 Windows (Powershell):
 ```
-iwr https://raw.github.com/pmh-only/license-cli/install.ps1 -useb | iex
+iwr https://raw.github.com/pmh-only/license-cli/master/install.ps1 -useb | iex
 ```
 
 MacOS, Linux:
 ```
-curl -L https://raw.github.com/pmh-only/license-cli/install.sh | sudo sh
+curl -L https://raw.github.com/pmh-only/license-cli/master/install.sh | sudo sh
 ```
 
 ## Do you want to add more licenses?
