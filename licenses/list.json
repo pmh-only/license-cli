@@ -1,3 +1,8 @@
 [
-  ["MIT License", "mit-license"]
+  ["MIT License", "mit-license"],
+  ["Apache License 2.0", "apache-license-2dot0"],
+  ["BSD 3-Clause \"New\" or \"Revised\" License", "bsd-3-clause"],
+  ["BSD 2-Clause \"Simplified\" or \"FreeBSD\" License", "bsd-2-clause"],
+  ["GNU General Public License, version 2", "gpl-2dot0"],
+  ["GNU General Public License, version 3", "gpl-3dot0"]
 ]
