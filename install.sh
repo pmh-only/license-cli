@@ -11,9 +11,10 @@ fi
 case $(uname -sm) in
   "Darwin x86_64") target="darwin_amd64" ;;
   "Linux x86_64") target="linux_amd64" ;;
+  "Linux i686") target="linux_386" ;;
 esac
 
-install_uri="https://raw.github.com/pmh-only/license-cli/master/build/${target}"
+install_uri="https://github.com/pmh-only/license-cli/releases/download/v0.1/license-cli_${target}"
 install_path="/usr/local/bin/license-cli"
 
 curl --fail --location --progress-bar --output "${install_path}" "${install_uri}"
