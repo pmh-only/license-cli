@@ -15,7 +15,7 @@ case $(uname -sm) in
 esac
 
 install_uri="https://github.com/pmh-only/license-cli/releases/download/v0.1/license-cli_${target}"
-install_path="/usr/local/bin/license-cli"
+install_path="/usr/local/bin/license"
 
 curl --fail --location --progress-bar --output "${install_path}" "${install_uri}"
 chmod a+x "${install_path}"
