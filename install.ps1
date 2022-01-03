@@ -9,9 +9,9 @@ if (!(Test-Path $install_path)) {
 }
 
 if ((gwmi win32_operatingsystem | select osarchitecture).osarchitecture -eq "64-bit") {
-  Invoke-WebRequest 'https://raw.github.com/pmh-only/license-cli/master/build/windows_amd64.exe' -OutFile "$install_path\license.exe" -UseBasicParsing
+  Invoke-WebRequest 'https://github.com/pmh-only/license-cli/releases/download/v0.1/windows_amd64.exe' -OutFile "$install_path\license.exe" -UseBasicParsing
 } else {
-  Invoke-WebRequest 'https://raw.github.com/pmh-only/license-cli/master/build/windows_386.exe' -OutFile "$install_path\license.exe" -UseBasicParsing
+  Invoke-WebRequest 'https://github.com/pmh-only/license-cli/releases/download/v0.1/windows_386.exe' -OutFile "$install_path\license.exe" -UseBasicParsing
 }
 
 $User = [EnvironmentVariableTarget]::User
