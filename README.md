@@ -1,7 +1,8 @@
 # :memo: license-cli
 simple LICENSE file generator
 
-![](https://cdn.discordapp.com/attachments/708923881632825354/927429096361828362/unknown.png)
+https://user-images.githubusercontent.com/39158228/148008127-45044151-cce3-4329-9900-cfa49709ebc2.mp4
+
 
 ## Install / Update
 
